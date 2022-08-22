@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> ks23.code </title>
+    <link rel="stylesheet" href="style.css">
+<!-- <link rel="stylesheet" href="icon.css"> -->
+
+    <!-- Boxiocns CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="sidebar close">
+    <div class="logo-details">
+      <!-- <i class='bx bxl-c-plus-plus'> -->
+      <img  class="bx bx-menu" src="image\SK23.CODE-removebg-preview.png"  style="height: 50px;cursor:pointer; margin-left: 10px; padding: 2px" alt="" srcset="">
+      <!-- <div class="home-content"> -->
+        <!-- <i class='bx bx-menu' ></i> -->
+      <!-- </i> -->
+      <!-- <img class="bx bxl-c-plus-plus"src="./image/SK23.CODE.png" alt="" srcset=""> -->
+      <span class="logo_name">&nbsp; ks23.code</span>
+    </div>
+    <ul class="nav-links">
+
+
+
+      <li>
+        <!-- <a href="#home" id="tab1" onclick="showtab(1,5)"> -->
+          <a href="#home" class="tablinks" onclick="openCity(event, 'home')" id="defaultOpen"> 
+          <i class='bx bx-home' ></i>
+          <span class="link_name" >Home</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#home" onclick="openCity(event, 'home')">Home</a></li>
+        </ul>
+      </li>
+      
+      
+      
+      <li>
+        <!-- <a href="#about" id="tab2" onclick="showTab(2,5)"> -->
+        <!-- <a   href="#about" id="tab2" onclick="showTab(2,5)">
+           -->
+          <a  href="#about" class="tablinks" onclick="openCity(event, 'about')"> 
+          <i class='bx bxs-info-circle' ></i>
+      <!-- <a id = "tabs2" onclick = "showTab(2,3)">About</a> -->
+
+          <span class="link_name">About</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#about" id="tab2" onclick="openCity(event, 'about')" >Abouts</a></li>
+
+          <!-- <li><a class="link_name" href="#about" id="tab2" onclick="showTab(2,5)">Abouts</a></li> -->
+        </ul>
+      </li>
+
+ 
+
+      <li>
+        <div class="iocn-link">
+          <a href="#projects" >
+            <i class='bx bx-book-alt' ></i>
+            <span class="link_name">Projects</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#projects">Projects</a></li>
+          <li><a href="./webpages/Django/index.html">Django</a></li>
+          <li><a href="#">Big Data(working)</a></li>
+          <li><a href="./webpages/Data-Analytics/index.html">Data Analytics</a></li>
+        </ul>
+      </li>
+
+
+
+
+      <li>
+        <!-- <a href="#coding-profile" id="tab3" onclick="showTab(3,5)"> -->
+          <a  href="#coding-profile" class="tablinks" onclick="openCity(event, 'coding-profile')"> 
+          
+          <i class='bx bx-code' ></i>
+          <span class="link_name">Coding Profiles</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#coding-profile" id="tab3" onclick="openCity(event, 'coding-profile')">Coding Profile</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <!-- <a href="#resume" id="tab4" onclick="showTab(4,5)"> -->
+          <a href="#resume" class="tablinks" onclick="openCity(event, 'resume')"> 
+          
+          <i class='bx bx-bookmark-alt-minus' ></i>
+          <span class="link_name">Resume</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#resume" onclick="openCity(event, 'resume')">Resume</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <!-- <a href="#contact" id="tab5" onclick="showTab(5,5)"> -->
+          <a  href="#contact" class="tablinks" onclick="openCity(event, 'contact')"> 
+          <i class='bx bxs-contact' ></i>
+          <span class="link_name">Contact</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#contact" onClick="openCity(event, 'contact')">Contacts</a></li>
+        </ul>
+      </li>
+
+
+
+
+      <li>
+    <div class="profile-details">
+      <div class="profile-content">
+        <img src="image/profile.png" alt="profileImg">
+      </div>
+      <div class="name-job">
+        <div class="profile_name">Sutariya KishanKumar</div>
+        <div class="job">Data Enthusiast</div>
+      </div>
+      <!-- <i class='bx bx-log-out' ></i> -->
+    </div>
+  </li>
+</ul>
+  </div>
+  <section class="home-section">
+    
+    <!-- <div class="home-content"> -->
+      <!-- <i class='bx bx-menu' ></i> -->
+      <!-- <span class="text"></span> -->
+    <!-- </div> -->
+   <!-- ========================== -->
+
+    <!-- <section class="home" id="tabs-1"> -->
+    
+      <!-- <div class="content"> -->
+           
+        
+        <div id="home" class="tabcontent"> 
+          <center>
+            <br>
+    <h1 id="name">SUTARIYA KISHANKUMAR</h1>
+    <br>
+    <img src="/image/profile.png" id='myphoto' style="height: 375px; border-radius:500px;" alt="Kishan photo" srcset=""> <br>
+    <h4 id="data">I'm Data Enthusiastic from India.</h4>
+  </center>
+
+<!-- <p>My <strong style="color: rgb(42, 42, 243);"><a href="/RESUME/resume.html" target="_blank">RESUME</a> </strong><a href=""></a></p> -->
+<!-- <p id="paragraph"> 🚀 Languages and Tools:</p>
+
+    <p id="paragraph"  align="left"> 
+  <a href="https://reactjs.org/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/react-native.png"/> </a> 
+   <img id="tools" src="https://img.icons8.com/color/48/000000/python.png"/>  
+   <img id="tools" src="https://img.icons8.com/color/48/000000/django.png"/>
+   <img id="tools" src="https://img.icons8.com/fluent/50/000000/mysql-logo.png"/> 
+   <img id="tools" src="https://img.icons8.com/color/48/000000/git.png"/> 
+   <img id="tools" src="https://img.icons8.com/color/48/000000/microsoft-excel-2019--v1.png"/>
+   <img id="tools" src="https://img.icons8.com/color/48/000000/numpy.png"/>
+   <img id="tools"src="https://img.icons8.com/color/48/000000/pandas.png"/>
+   <img id="tools" src="https://img.icons8.com/color/48/000000/tableau-software.png"/>
+   <img id="tools" src="https://img.icons8.com/color/48/000000/power-bi.png"/>
+   <img id="tools" src="https://img.icons8.com/color/48/000000/html-5.png"/> 
+   <img id="tools" src="https://img.icons8.com/color/48/000000/css3.png"/> 
+   <img id="tools" src="https://img.icons8.com/color/48/000000/javascript.png"/>
+   <img id='tools'src="https://avatars.githubusercontent.com/u/459687?s=280&v=4" style="width: 40px;" >
+
+</p> -->
+<br>
+<h2 align="left">👨🏽‍💻 Languages and Tools:</h2>
+<p align="left"> 
+
+<strong> Fronted: -</strong> <a href="#" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="30" height="30"/> </a> <a href="#" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="30" height="30"/> </a> 
+<br>
+<strong> Programming Language: </strong>-<a href="#" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="30" height="30"/> </a> 
+<br>
+<strong> Libraries & Framework: -</strong><a href="#" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="30" height="30"/> </a> <a href="#" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="30" height="30"/> </a>
+<br>
+<strong> Big Data: -</strong><a href="#" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_hadoop/apache_hadoop-icon.svg" alt="hadoop" width="30" height="30"/> </a> <a href="#" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_hive/apache_hive-icon.svg" alt="hive" width="30" height="30"/> </a> 
+<br>
+<strong> ETL Tools: -</strong><a href="#" target="_blank" rel="noreferrer"><img src="./image/talend.png" width=35px alt="talend open studion"></a>
+<br>
+<strong> Database: - </strong><a href= "#" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="30" height="30"/> </a> <a href="#" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="30" height="30"/> </a> 
+<br>
+<strong> CI/CD tools: -</strong><a href="#" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="30" height="30"/> </a> <a href="#" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="30" height="30"/> </a> <a href="#" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="30" height="30"/> </a> <a href="#" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="jenkins" width="30" height="30"/> </a> 
+<br>
+<strong> Visualization tools: -</strong> <a href="#" ><img src="https://img.icons8.com/color/48/000000/power-bi.png" width="30" height="30"/></a><a href="#"><img src="https://img.icons8.com/color/48/000000/tableau-software.png" width="30" height="30"/></a>
+
+
+
+
+
+ 
+</p>
+
+
+
+        
+       </div>
+  
+     
+  
+     <!-- </section> -->
+
+  <!-- --------------------=============================== -->
+ 
+  <!-- <div id="tabs-2" style="display: none"> -->
+    <!-- <section class="about" id="about" > -->
+      <div id="about" class="tabcontent"> 
+        <h1 class="heading"> About <span> Me </span> </h1>
+
+      <p>&nbsp &nbsp Currently learning <strong>Big Data</strong> concept,
+        came across python libraries and done analysis on the data set also parallelly working on django so i can run my future ML model on web. 
+     </p>
+    <p>You can go through "PROJECT" tab and see some basic project done by me.</p>
+    <p>In <strong> Coding-Profile</strong> tab you will get links to see my programing skills. </p>
+
+  </div>
+    <!-- </section>   -->
+  
+     
+ <!-- //////////////////////// -->
+ <!-- <div id="tabs-3" style="display: non"> -->
+   <!-- <section class="coding-profile" id="coding-profile">  -->
+    <div id="coding-profile" class="tabcontent"> 
+      <h1 class="heading"> Coding <span> Profile </span> </h1>
+    <a href="https://www.hackerrank.com/kishansutariya23">HackerRank</a> <br>
+    <a href="https://www.hackerearth.com/@kishansutariya23">HackerEarth</a><br>
+    <a href="https://www.codewars.com/users/kishansutariya23">CodeWar</a> <br>
+    </div>
+
+   <!-- </section> -->
+ <!-- </div> -->
+   <!-- =======--------------- -->
+   
+<!-- <section class="resume" id="resume" >  -->
+  <div id="resume" class="tabcontent"> 
+    <h1 class="heading">Resume</h1>
+  <img src="./image/resume.png" style="width: 100%; height:100%" alt="" srcset="">
+  </div>
+<!-- </section> -->
+
+<!-- =================================== -->
+<!-- <section class="contact" id="contact" > -->
+  <div id="contact" class="tabcontent"> 
+  <h1 class="heading">Contact</h1>
+
+    <!-- <li><i class="fab fa-facebook-f"></i></li> -->
+    <li><a href="https://github.com/kishansutariya23" target="_blank"  style="color: rgb(0, 0, 0);"><i class="fab fa-github"></i>Github</a></li> 
+    <li><a href="https://www.linkedin.com/in/kishankumar-sutariya/" target="_blank"   style="color: blue; "><i class="fab fa-linkedin-in"></i>Linkedin</a></li>
+    <li><a href="https://www.instagram.com/ks23.code/" target="_blank"   style="color:rgb(255, 23, 201) ;"> <i class="fab fa-instagram"></i>Instagram</a></li>
+    <li><a href="https://twitter.com/ks23_code?t=slipKXB8ZbZG4wDzoTxQ&s=09" target="_blank"  > <i class="fab fa-twitter"></i>twitter</a></li>
+    <li><a href="https://www.youtube.com/channel/UCTznaXzOXeFZ8LzWxS0d6_A" target="_blank"   style="color: red;"> <i class="fab fa-youtube"></i>Youtube</a></li>
+    <li><a href="https://t.me/+ScB57Y271IMzZWM1" target="_blank"  style="color: blue;"> <i class="fab fa-telegram"></i>Telegram</a></li>
+  </div>
+<!-- </section> -->
+
+
+  <!-- </section> -->
+  
+  <script src="script.js"></script>
+  <script>
+    function openCity(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+    
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+    </script>
+</body>
+</html>
+ 
