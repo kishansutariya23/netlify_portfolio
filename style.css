@@ -235,6 +235,7 @@ body{
   position: fixed;/* for making a burger stick*/
   align-items: center;
   flex-wrap: wrap;
+ 
 }
 .home-section .home-content .bx-menu,
 .home-section .home-content .text{
