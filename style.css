@@ -251,6 +251,27 @@ body{
   font-weight: 600;
 }
 
+
+
+/* coding profile css */
+table, th, td {
+  border: 0.1px solid rgb(44, 191, 235);
+  /* text-align: center; */
+  
+}
+#mytable{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: 0.1px solid rgb(44, 191, 235);
+  overflow-x:auto;
+
+
+}
+
+
+
+
 @media screen and (max-width: 400px){
   .sidebar{
     width: 240px;
