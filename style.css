@@ -255,6 +255,7 @@ body{
 
 /* coding profile css */
 
+ 
 div.gallery {
   border: 1px solid #ccc;
 }
@@ -278,7 +279,7 @@ div.desc {
 }
 
 .responsive {
-  padding: 0 6px;
+  padding: 0 10px;
   float: left;
   /* width: 24.99999%; */
   width: 20%;
@@ -289,22 +290,24 @@ div.desc {
   .responsive {
     /* width: 49.99999%; */
     width: 30%;
-    /* margin: 6px 0; */
+    margin: 10px 0;
   }
 }
 @media only screen and (max-width: 600px) {
   .responsive {
     /* width: 49.99999%; */
     width: 50%;
-    /* margin: 6px 0; */
+    margin: 10px 0;
   }
 }
 @media only screen and (max-width: 480px) {
   .responsive {
     width: 100%;
+    margin: 10px 0;
+
   }
 }
-
+ 
 
  
 
